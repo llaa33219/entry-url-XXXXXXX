@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "네이버.미 엔트리/업로드 차단",
+  "version": "1.0",
+  "description": "url차단",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
